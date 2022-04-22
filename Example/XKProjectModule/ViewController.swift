@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import XKProjectModule
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        XKSpeedy.environmentExcute {
+            print("debug print")
+        } release: {
+            print("release print")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
