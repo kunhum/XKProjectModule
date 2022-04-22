@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9E1F5EA02020B111E80B4F6E /* Pods_XKProjectModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1ADA6ADC29D672825AAB31 /* Pods_XKProjectModule_Example.framework */; };
-		C1FD8E7C8505E11B04809A29 /* Pods_XKProjectModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BE8685CD66E39FB247779 /* Pods_XKProjectModule_Tests.framework */; };
+		69D0A6E86C9CCC0B5236D8C7 /* libPods-XKProjectModule_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB937C1DC5272AECEE3355EB /* libPods-XKProjectModule_Tests.a */; };
+		C76144924746B5A1DA5611B1 /* libPods-XKProjectModule_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 046DE62C70FB58899ACED1BF /* libPods-XKProjectModule_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EEF7A2CADA99A3AA4D1DA4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		046DE62C70FB58899ACED1BF /* libPods-XKProjectModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKProjectModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEF7A2CADA99A3AA4D1DA4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1D2289C7E8CD0AFD1F3A4B29 /* Pods-XKProjectModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKProjectModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKProjectModule_Example/Pods-XKProjectModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D05803F41B6ECA61331AFE5 /* Pods-XKProjectModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKProjectModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKProjectModule_Tests/Pods-XKProjectModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D11001D57016EDEDBFA01FE /* XKProjectModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKProjectModule.podspec; path = ../XKProjectModule.podspec; sourceTree = "<group>"; };
-		2D4BE8685CD66E39FB247779 /* Pods_XKProjectModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKProjectModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D11001D57016EDEDBFA01FE /* XKProjectModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKProjectModule.podspec; path = ../XKProjectModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4293E6B4C7997EF3ED6EFFAA /* Pods-XKProjectModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKProjectModule_Example.release.xcconfig"; path = "Target Support Files/Pods-XKProjectModule_Example/Pods-XKProjectModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		537D6287588A1454A5DA5CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		537D6287588A1454A5DA5CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5C4E586D303135E68836B964 /* Pods-XKProjectModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKProjectModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKProjectModule_Tests/Pods-XKProjectModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKProjectModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKProjectModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACE51AFB9204008FA782 /* XKProjectModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKProjectModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AB1ADA6ADC29D672825AAB31 /* Pods_XKProjectModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKProjectModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB937C1DC5272AECEE3355EB /* libPods-XKProjectModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKProjectModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1F5EA02020B111E80B4F6E /* Pods_XKProjectModule_Example.framework in Frameworks */,
+				C76144924746B5A1DA5611B1 /* libPods-XKProjectModule_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FD8E7C8505E11B04809A29 /* Pods_XKProjectModule_Tests.framework in Frameworks */,
+				69D0A6E86C9CCC0B5236D8C7 /* libPods-XKProjectModule_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,15 +147,14 @@
 				2D05803F41B6ECA61331AFE5 /* Pods-XKProjectModule_Tests.debug.xcconfig */,
 				5C4E586D303135E68836B964 /* Pods-XKProjectModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		A0026C5BDA384097379DD033 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB1ADA6ADC29D672825AAB31 /* Pods_XKProjectModule_Example.framework */,
-				2D4BE8685CD66E39FB247779 /* Pods_XKProjectModule_Tests.framework */,
+				046DE62C70FB58899ACED1BF /* libPods-XKProjectModule_Example.a */,
+				FB937C1DC5272AECEE3355EB /* libPods-XKProjectModule_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7E8300E8A77BC4E579F7D86A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -282,24 +281,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E8300E8A77BC4E579F7D86A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XKProjectModule_Example/Pods-XKProjectModule_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XKProjectModule/XKProjectModule.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKProjectModule.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XKProjectModule_Example/Pods-XKProjectModule_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0ABFB866B61D9467CECB6E1 /* [CP] Check Pods Manifest.lock */ = {
@@ -419,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,12 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKProjectModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +476,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKProjectModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
